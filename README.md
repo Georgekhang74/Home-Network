@@ -97,12 +97,22 @@ Each VLAN is isolated with rules such as:
 
 ## 🛰 Cisco Switch Configuration
 
-### Trunk Port (to AP)
 
-- Native VLAN: 999  
-- Allowed VLANs: 20,30,70,999  
+- Native VLAN: 10 
+- Allowed VLANs: 10,20,30,70,999  
+<img width="642" height="596" alt="Screenshot 2026-05-21 161457" src="https://github.com/user-attachments/assets/e4888a42-d526-427c-b012-ea8292095ec8" />
+<img width="485" height="244" alt="Screenshot 2026-05-21 161339" src="https://github.com/user-attachments/assets/912392a0-3002-4916-ba5f-93cbdbdf4263" />
+
+- Links to the router and AP are trunks allowing the selected vlan traffic through
 
 
+- Ignore VLAN 999, I was going to use it as a blackhole vlan but had connectivity issues so I decided just to leave it there for now. 
+- Vlan 10 exists for connectivity to my pfsense router
+
+<img width="368" height="92" alt="Screenshot 2026-05-19 190741" src="https://github.com/user-attachments/assets/186ad119-ebd7-4172-bb78-33aef08f015e" />
+
+- I configured a switchport to allow myself into the pfsense web ui
+  - This is redundant because I can get in with multiple other IP addresses
 ---
 
 ## 📡 Omada Controller Configuration
