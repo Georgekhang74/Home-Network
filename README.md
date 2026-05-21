@@ -39,11 +39,11 @@ This repository documents the full rebuild of my home network, including:
                      │   Omada EAP    │
                      │   Wi-Fi AP     │
                      └───────┬────────┘
-                 ┌───────────┼───────────────┐
-                 │           │               │
-             SSID: Chicken(Personal)   SSID: Flamingo(IOT)      SSID: Birds(Guest)
-             VLAN 70      VLAN 20        VLAN 30
-           (Personal)      (IoT)          (Guest)
+                 ┌───────────┼───────────────────────────┐
+                 │           │                           │    
+    SSID: Chicken(Main)  SSID: Flamingo(IOT)    SSID: Birds(Guest)
+           VLAN 70            VLAN 20                VLAN 30
+          (Personal)          (IoT)                  (Guest)
 
 
 ---
