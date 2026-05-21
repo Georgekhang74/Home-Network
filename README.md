@@ -41,7 +41,7 @@ This repository documents the full rebuild of my home network, including:
                      └───────┬────────┘
                  ┌───────────┼───────────────┐
                  │           │               │
-             SSID: Main   SSID: IoT      SSID: Birds
+             SSID: Chicken(Personal)   SSID: Flamingo(IOT)      SSID: Birds(Guest)
              VLAN 70      VLAN 20        VLAN 30
            (Personal)      (IoT)          (Guest)
 
