@@ -15,6 +15,37 @@ This repository documents the full rebuild of my home network, including:
 ## 📌 Network Topology Overview
 
 
+                    ┌────────────────────┐
+                    │      Internet      │
+                    └────────┬───────────┘
+                             │
+                             │ WAN
+                     ┌───────┴────────┐
+                     │    pfSense     │
+                     │ Firewall/Router│
+                     │                │
+             VLAN 70 → 10.0.70.1/24   │
+             VLAN 20 → 10.0.20.1/24   │
+             VLAN 30 → 10.0.30.1/24   │
+                     └───────┬────────┘
+                             │
+                             │ Trunk (VLANs 20,30,70)
+                     ┌───────┴────────┐
+                     │  Cisco Switch  │
+                     └───────┬────────┘
+                             │
+                             │ Trunk (VLANs 20,30,70)
+                     ┌───────┴────────┐
+                     │   Omada EAP    │
+                     │   Wi-Fi AP     │
+                     └───────┬────────┘
+                 ┌───────────┼───────────────┐
+                 │           │               │
+             SSID: Main   SSID: IoT      SSID: Birds
+             VLAN 70      VLAN 20        VLAN 30
+           (Personal)      (IoT)          (Guest)
+
+
 ---
 
 ## 🧩 VLAN Design
