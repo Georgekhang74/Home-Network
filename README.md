@@ -67,7 +67,14 @@ This repository documents the full rebuild of my home network, including:
 - VLAN 70 → Personal LAN  
 - VLAN 20 → IoT  
 - VLAN 30 → Guest  
-- VLAN 999 → Native/Trunk (no IP)
+- VLAN 10 → Native/Management (10.0.10.0/24)
+
+<img width="1429" height="254" alt="Screenshot 2026-05-21 160128" src="https://github.com/user-attachments/assets/a97f9e0d-cf75-4476-a1ad-21fc9110dee2" />
+
+<img width="1348" height="688" alt="image" src="https://github.com/user-attachments/assets/7c6aaab1-0303-4806-b110-9c0868ce2f70" />
+
+- VLAN 10 is not shown in pfsense because it is the "LAN" port
+
 
 
 ---
@@ -76,9 +83,18 @@ This repository documents the full rebuild of my home network, including:
 
 Each VLAN has its own DHCP scope:
 
-- VLAN 70: 10.0.70.50–10.0.70.199  
+- VLAN 70: 10.0.70.50–10.0.70.245  
 - VLAN 20: 10.0.20.50–10.0.20.199  
-- VLAN 30: 10.0.30.50–10.0.30.199  
+- VLAN 30: 10.0.30.50–10.0.30.199
+- VLAN 10: 10.0.10.10–10.0.10.245
+<img width="1580" height="835" alt="image" src="https://github.com/user-attachments/assets/a81152b9-ba36-4dfa-be30-8822eea47bc5" />
+
+<img width="1518" height="819" alt="image" src="https://github.com/user-attachments/assets/2ad9e54f-08f1-416f-ac6e-2f47b687d07a" />
+
+<img width="1522" height="819" alt="image" src="https://github.com/user-attachments/assets/6c7b78ac-dc78-4f09-8ac2-7ba0d53d83f1" />
+
+<img width="1435" height="830" alt="image" src="https://github.com/user-attachments/assets/708e6f18-54ee-4fe2-ae63-b875364ebfe3" />
+
 
 
 ---
@@ -91,7 +107,19 @@ Each VLAN is isolated with rules such as:
 - Block VLAN → LAN  
 - Block VLAN → other VLANs  
 - Allow DNS/DHCP to pfSense  
+<img width="1453" height="583" alt="image" src="https://github.com/user-attachments/assets/bd712fbf-81e5-42fa-8973-08b81c76da73" />
 
+&nbsp;
+
+<img width="1493" height="344" alt="image" src="https://github.com/user-attachments/assets/b85e4197-9e9e-402c-b2dc-074e81f3142b" />
+<br><br>
+<img width="1479" height="242" alt="image" src="https://github.com/user-attachments/assets/c008963c-4cca-4e01-80ce-98bc9969c816" />
+
+<br><br>
+
+<img width="1463" height="301" alt="image" src="https://github.com/user-attachments/assets/cfb6885e-c67d-4404-a225-eab85909c7b1" />
+
+<br><br>
 
 ---
 
