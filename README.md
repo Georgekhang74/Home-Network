@@ -150,7 +150,7 @@ Each VLAN is isolated with rules such as:
 <br><br>
 
 - I configured a switchport to allow myself into the pfsense web ui
-  - This is redundant because I can get in with multiple other IP addresses however, I wanted a managent port.
+  - This is redundant because I can get in with multiple other IP addresses however, I wanted a management port.
 ---
 
 ## 📡 Omada Controller Configuration
