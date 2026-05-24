@@ -187,6 +187,7 @@ Connect to each SSID and verify the correct subnet:
 <img width="825" height="181" alt="Screenshot 2026-05-21 154039" src="https://github.com/user-attachments/assets/93c6c358-f950-4a91-be99-3aaff053c37e" />
 <br><br>
 <img width="908" height="171" alt="Screenshot 2026-05-21 154152" src="https://github.com/user-attachments/assets/ac9fe56e-9057-404f-b774-8a2548d5189a" />
+<br><br>
 - DHCP scope for 10.0.70.0/24 was roughly changed but still remained in the same subnet
 
 ---
