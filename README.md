@@ -197,7 +197,7 @@ Connect to each SSID and verify the correct subnet:
 
 This is the finished version of my home network. If you are wondering why I have a random vlan... you are free to check out my more detailed and documented version of this lab, where I show where I went wrong and the places I had to redesign/reconfigure. 
 
-https://github.com/Georgekhang74/Home-Network-The-Process-
+https://github.com/Georgekhang74/Home-Network-The-Process-/tree/main
 
 ---
 
