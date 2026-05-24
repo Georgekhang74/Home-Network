@@ -46,6 +46,8 @@ This repository documents the rebuild of my home network, including:
           (Personal)          (IoT)                  (Guest)
 
 
+<img width="4032" height="3024" alt="IMG_8942" src="https://github.com/user-attachments/assets/300b8d2b-96e0-4f15-8ac9-8d10f372326e" />
+
 ---
 
 ## 🧩 VLAN Design
